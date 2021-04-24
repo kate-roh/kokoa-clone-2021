@@ -4,47 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to Kokoa talk</title>
+    <title>Welcome to kokoa clone</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+
   </head>
   <body>
     <div id="status-bar">
       <div class="status-bar__column">
-        <span>No service</span>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M17.778 8.222c-4.296-4.296-11.26-4.296-15.556 0A1 1 0 01.808 6.808c5.076-5.077 13.308-5.077 18.384 0a1 1 0 01-1.414 1.414zM14.95 11.05a7 7 0 00-9.9 0 1 1 0 01-1.414-1.414 9 9 0 0112.728 0 1 1 0 01-1.414 1.414zM12.12 13.88a3 3 0 00-4.242 0 1 1 0 01-1.415-1.415 5 5 0 017.072 0 1 1 0 01-1.415 1.415zM9 16a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </div>
-      <div class="status-bar__column">
-        <span>00:32</span>
-      </div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="h-5 w-5"
-        viewBox="0 0 20 20"
-        fill="currentColor"
-      >
-        <path
-          d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"
-        />
-      </svg>
-      <div class="status-bar__column">
-        <span>110%</span>
-
-        <!-- #region라이트닝 아이콘-->
-      </div>
+      <span>No service</span>
+      <i class="fas fa-wifi"></i>
+  
     </div>
-    <script>
-      src = "https://kit.fontawesome.com/6478f529f2.js";
-      crossorigin = "anonymous";
-    </script>
+    <div class="status-bar__column">
+      <span>10:39</span>
+    </div>
+    <div class="status-bar__column">
+      <span>100%</span>
+      <i class="fas fa-battery-full"></i>
+      <i class="fas fa-bolt"></i>
+    </div>
+    <div class="status-bar"></div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to kokoa clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form id="Login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="password" />
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign up" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+  
+    <script
+    src="https://kit.fontawesome.com/6478f529f2.js"
+crossorigin="anonymous"
+    ></script>
+
+
   </body>
 </html>
