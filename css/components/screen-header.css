@@ -5,10 +5,11 @@
   padding: var(--horizontal-space);
   padding-top: 40px;
   opacity: 90%;
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 600;
 }
 
